@@ -1,0 +1,25 @@
+form{
+	background-color: darkgray;
+	width: 40%;
+	border-radius: 0.5%;
+	display: none;	
+}
+
+table{
+	padding: 20px;	
+}
+
+td{
+	height: 30px;
+	width: 100px;
+}
+
+button{
+	margin: 5px;
+	height: 40px;
+	width: 73px;
+}
+
+.h-kolom{
+	width: 114px;
+}

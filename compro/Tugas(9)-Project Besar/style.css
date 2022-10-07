@@ -1,0 +1,164 @@
+body{
+	background-color: darkgray;
+}
+/*style header nav*/
+.circle-1{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+}
+
+.sqr{
+	/*width: 20vw;*/
+	/*height: 30px;*/	
+}
+
+.sqr .circle-sm{
+	width: 20px;
+	height:20px;
+	border-radius: 50%;
+	float: right;
+	margin: 5px;
+}
+
+
+.sqr-1{
+	width: 8vw;
+	height: 30px;
+	/*margin-right: 0.3rem;*/
+}
+
+.sqr-1:nth-child(3){
+	/*margin-right: 0.5rem;*/
+}
+
+.circle-2{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: 0.5rem;	
+}
+
+
+
+/*style slide*/
+.carousel-item{
+  max-height: 670px !important;
+}
+
+
+
+/*style sidebar-left*/
+.c-1{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 2px;
+}
+
+.square{
+	width:  84.6%;	
+	height: 30px;
+}
+
+
+.square-1{
+	height: 30px;
+	margin-top: 8px;
+}
+
+
+
+/*main*/
+.kotak{
+	/*height: 148px;*/
+}
+
+.sqr1{
+	height: 60px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.s1{
+	margin: 0px 1px;
+}
+
+.sqr2{
+	height: 35px;
+	width: 22.7%
+	/*margin-top: 5px;*/
+}
+
+.sqr3{
+	width: 11.3%;
+	height: 35px;
+	/*margin-top: 5px;*/
+}
+
+.kotak2{
+	/*height: 225px;*/
+}
+
+.door1{
+	width: 22.7%;
+	height: 178px;
+}
+
+.kotak3{
+	/*height: 280px;*/
+}
+
+.box-small{
+	width: 4%;
+	height: 20px;
+}
+
+.circle1{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.box-s1{
+	width: 89%;
+	height: 30px;
+}
+
+.box-s2{
+	height: 30px;
+}
+
+.box-s3{
+	height: 160px;
+}
+
+
+/*style sidebar-right*/
+.kotak4{
+	height: 60px;
+}
+
+.kotak5{
+	/*height: 340px;*/
+	box-sizing: border-box;
+}
+
+.box1{
+	width: 44%;
+	height: 130px;
+}
+
+.kotak6{
+	/*height: 210px;*/
+}
+
+.box2{
+	height: 50px;
+}
+
+./*teks1{
+	font-size: 100%;
+	white-space: nowrap;
+}*/

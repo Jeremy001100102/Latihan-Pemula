@@ -1,0 +1,22 @@
+
+table{
+  border-collapse: collapse;
+}
+
+td{
+	text-align: center;
+}
+
+.header{
+	background-color: black;
+	color: white;
+}
+
+.h-kolom:nth-child(1){
+	width:100px;
+}
+
+.h-kolom{
+	width: 250px;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Belajar Jquery</title>
+	<style type="text/css">
+	form{
+		margin: 10%;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	#nama, #jk, #ket{
+		padding: 10px;
+		margin: 10px;
+		width: 145px
+	}
+
+	#jk{
+		width: 25%;
+	}
+
+
+	#ket{
+		width:50%;
+		height: 70px;
+		margin-left: 0px;
+	}
+
+	#info{
+		font-size: 18px;
+		font-weight: bold;
+		margin: 10%;
+		background-color: white;
+	}
+
+	.container{
+		background-color: darkgray;
+		max-width: 40vw;
+		height: 30vw;
+		height: 4;
+		margin: 10%;
+		border-radius: 2%;
+	}
+
+</style>
+</head>
+<body>
+	<div 
+	class="container">	
+	<form>
+		Nama : <input type="input" placeholder="Masukkan Nama" id="nama">
+		<br>
+		Jenis Kelamin :<select
+		id="jk">
+		<option value="Pria">Pria</option>
+		<option value="Wanita">Wanita</option>
+	</select>
+	<br>
+	Keterangan : <br> <textarea placeholder="Keterangan" id="ket" ></textarea>
+	<br>
+	<button>Submit</button>
+</form>
+
+<div id="info">	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('form').submit(function(e){
+			e.preventDefault();
+			const nama = $('#nama').val();
+			const jk = $('#jk').val();
+			const ket = $('#ket').val();
+			const result = 'Nama : '+nama+', Jenis Kelamin : '+jk+', Keterangan : '+ket;
+			$('#info').html('<p> '+ result+	'</p>');
+
+
+		});
+
+	});
+</script>
+</body>
+</html>
